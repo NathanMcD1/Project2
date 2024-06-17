@@ -6,6 +6,7 @@ header{grid-area: header;}
 #house{grid-area: house;}
 footer{grid-area: footer;}
 body{
+    margin: 75px;
     display: grid;
     grid-template-areas:
     'header house'
