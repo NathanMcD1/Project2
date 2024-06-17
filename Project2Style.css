@@ -3,16 +3,17 @@ header{grid-area: header;}
 #input2{grid-area: input2;}
 #input3{grid-area: input3;}
 #output{grid-area: output;}
+#house{grid-area: house;}
 footer{grid-area: footer;}
 body{
     display: grid;
     grid-template-areas:
-    'header'
-    'input1'
-    'input2'
-    'input3'
-    'output'
-    'footer';
+    'header house'
+    'input1 input1'
+    'input2 input2'
+    'input3 input3'
+    'output output'
+    'footer footer';
     gap: 10px;
     background-image: linear-gradient(white, lightblue);
     padding: 10px;
