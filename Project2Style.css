@@ -1,8 +1,14 @@
 header{
     grid-area: header;
 }
-#input{
-    grid-area: input;
+#input1{
+    grid-area: input1;
+}
+#input2{
+    grid-area: input2;
+}
+#input3{
+    grid-area: input3;
 }
 #output{
     grid-area: output;
@@ -16,6 +22,7 @@ body{
     display: grid;
     grid-template-areas:
     'header header'
-    'input output'
+    'input1 input2'
+    'input3 output'
     'footer footer';
 }
