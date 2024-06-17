@@ -9,12 +9,12 @@ body{
     margin: 75px;
     display: grid;
     grid-template-areas:
-    'header header header'
-    'input1 house house'
-    'input2 house house'
-    'input3 house house'
-    'output house house'
-    'footer footer footer';
+    'header header header header'
+    'input1 house house house'
+    'input2 house house house'
+    'input3 house house house'
+    'output house house house'
+    'footer footer footer footer';
     gap: 10px;
     background-image: linear-gradient(white, lightblue);
     padding: 10px;
