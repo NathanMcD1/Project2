@@ -9,11 +9,11 @@ body{
     margin: 75px;
     display: grid;
     grid-template-areas:
-    'header header'
-    'input1 house'
-    'input2 house'
-    'input3 house'
-    'output house'
+    'header house'
+    'input1 input1'
+    'input2 input2'
+    'input3 input3'
+    'output output'
     'footer footer';
     gap: 10px;
     background-image: linear-gradient(white, lightblue);
