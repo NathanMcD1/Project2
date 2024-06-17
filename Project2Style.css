@@ -15,10 +15,6 @@ body{
     background-image: linear-gradient(white, lightblue);
     padding: 10px;
 }
-body > div{
-    text-align: center;
-    padding: 20px 0;
-}
 body > section{
     text-align: center;
     padding: 20px 0;
