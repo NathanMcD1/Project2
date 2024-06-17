@@ -8,7 +8,8 @@ body{
     display: grid;
     grid-template-areas:
     'header header'
-    'input1 input2'
+    'input1 output'
+    'input2 output'
     'input3 output'
     'footer footer';
     gap: 10px;
@@ -16,6 +17,6 @@ body{
     padding: 10px;
 }
 body > section{
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
 }
