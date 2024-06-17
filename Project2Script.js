@@ -3,5 +3,5 @@ function calculate(){
     let p = parseFloat(document.getElementById("principalInput").value);
     let r = parseFloat(document.getElementById("yearlyRateInput").value) / 1200;
     let payment = (p * r) / (1 - Math.pow((1 + r), -n));
-    document.getElementById("paymentOutput").innerHTML = "$" + payment.toFixed(2);
+    document.getElementById("paymentOutput").innerHTML = "Your monthly payment is: $" + payment.toFixed(2);
 }
