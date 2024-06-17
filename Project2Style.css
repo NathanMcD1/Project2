@@ -18,11 +18,14 @@ footer{
 }
 body{
     background-image: linear-gradient(white, lightblue);
-    margin: 75px;
+    margin: auto;
     display: grid;
     grid-template-areas:
     'header header'
     'input1 input2'
     'input3 output'
     'footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+    gap: 10px;
 }
