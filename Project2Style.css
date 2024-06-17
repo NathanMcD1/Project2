@@ -1,4 +1,23 @@
+header{
+    grid-area: header;
+}
+#input{
+    grid-area: input;
+}
+#output{
+    grid-area: output;
+}
+footer{
+    grid-area: footer;
+}
 body{
     background-image: linear-gradient(white, lightblue);
     margin: 75px;
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'input outpu'
+    'footer footer';
+    gap: 10px;
+    padding: 10px;
 }
