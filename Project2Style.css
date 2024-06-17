@@ -1,31 +1,25 @@
-header{
-    grid-area: header;
-}
-#input1{
-    grid-area: input1;
-}
-#input2{
-    grid-area: input2;
-}
-#input3{
-    grid-area: input3;
-}
-#output{
-    grid-area: output;
-}
-footer{
-    grid-area: footer;
-}
+header{grid-area: header;}
+#input1{grid-area: input1;}
+#input2{grid-area: input2;}
+#input3{grid-area: input3;}
+#output{grid-area: output;}
+footer{grid-area: footer;}
 body{
-    background-image: linear-gradient(white, lightblue);
-    margin: auto;
     display: grid;
     grid-template-areas:
     'header header'
     'input1 input2'
     'input3 output'
     'footer footer';
-    grid-gap: 10px;
-    padding: 10px;
     gap: 10px;
+    background-image: linear-gradient(white, lightblue);
+    padding: 10px;
+}
+body > div{
+    text-align: center;
+    padding: 20px 0;
+}
+body > section{
+    text-align: center;
+    padding: 20px 0;
 }
