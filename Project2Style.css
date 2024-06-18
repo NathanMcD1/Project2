@@ -24,4 +24,5 @@ body{
 body > section{
     padding: 15px;
     border: 5px solid black;
+    vertical-align: center;
 }
