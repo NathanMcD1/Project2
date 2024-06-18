@@ -5,6 +5,9 @@ header{grid-area: header;}
 #output{grid-area: output;}
 #house{grid-area: house;}
 footer{grid-area: footer;}
+html{
+    background-image: linear-gradient(white, lightblue);
+}
 body{
     margin: 75px;
     display: grid;
@@ -14,7 +17,6 @@ body{
     'input3 output'
     'footer footer';
     gap: 10px;
-    background-image: linear-gradient(white, lightblue);
     padding: 10px;
 }
 body > section{
