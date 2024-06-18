@@ -9,6 +9,8 @@ html{
     margin: 0;
     height: 100%;
     background-image: linear-gradient(white, lightblue);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 body{
     margin: 75px;
@@ -17,7 +19,7 @@ body{
     'header house'
     'input1 input2'
     'input3 output'
-    'footer footer';
+    'footer footer';;
     gap: 10px;
     padding: 10px;
 }
