@@ -6,8 +6,9 @@ header{grid-area: header;}
 #house{grid-area: house;}
 footer{grid-area: footer;}
 html{
+    margin: 0;
+    height: 100%;
     background-image: linear-gradient(white, lightblue);
-    background-size: cover;
 }
 body{
     margin: 75px;
